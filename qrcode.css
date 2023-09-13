@@ -9,17 +9,19 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px #FFFFFF solid;
     background-color: white;
     width: 320px;
     height: 497px;
-    padding: 16px;
     border-radius: 20px;
-    border: 1px #FFFFFF solid;
-    box-sizing: content-box;
 }
 
 #qrCode {
     border-radius: 10px;
+    height: 288px;
+    width: 288px;
 }
 
 .textContainer {

@@ -16,13 +16,14 @@ body {
     width: 320px;
     height: 497px;
     border-radius: 20px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 #qrCode {
     border-radius: 10px;
     height: 288px;
     width: 288px;
+    box-sizing: border-box;
 }
 
 .textContainer {
@@ -31,7 +32,7 @@ body {
     padding: 24px;
     display: flex;
     flex-direction: column;
-    box-sizing: content-box;
+    -moz-box-sizing: border-box; 
 }
 
 #title {

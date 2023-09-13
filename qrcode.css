@@ -16,6 +16,7 @@ body {
     width: 320px;
     height: 497px;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 #qrCode {

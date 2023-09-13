@@ -15,6 +15,7 @@ body {
     padding: 16px;
     border-radius: 20px;
     border: 1px #FFFFFF solid;
+    box-sizing: content-box;
 }
 
 #qrCode {
@@ -27,6 +28,7 @@ body {
     padding: 24px;
     display: flex;
     flex-direction: column;
+    box-sizing: content-box;
 }
 
 #title {
